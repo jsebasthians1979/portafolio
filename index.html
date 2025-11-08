@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio | Andrés va</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #0d6efd;
+      color: white;
+      padding: 20px 0;
+    }
+    .skills span {
+      background: #0d6efd;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Juan Carlos Saltos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🔹 Sección Sobre mí -->
+  <section id="about" class="bg-light text-center">
+    <div class="container">
+      <img src="https://via.placeholder.com/150" alt="Perfil" class="profile-img mb-3">
+      <h2>Sobre mí</h2>
+      <p class="lead">Soy desarrollador de software enfocado en crear soluciones tecnológicas eficientes, combinando backend, frontend y bases de datos modernas.</p>
+    </div>
+  </section>
+
+  <!-- 🔹 Educación -->
+  <section id="education">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary">Educación</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Ingeniería en Tecnologias de la informacion</h5>
+              <p class="card-text">Universidad Tecnica de Manabi (2018 - 2023)</p>
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Desarrollo Web</h5>
+              <p class="card-text">Platzi (2022)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Experiencia -->
+  <section id="experience" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary">Experiencia</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollador Backend - MaferTech</h5>
+              <p class="card-text">Desarrollo de APIs REST con C#, PostgreSQL y automatización de procesos de movilidad urbana.</p>
+              <span class="text-muted">2024 - Presente</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Freelancer</h5>
+              <p class="card-text">Creación de aplicaciones web y móviles personalizadas aplicando buenas prácticas de desarrollo.</p>
+              <span class="text-muted">2022 - 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Proyectos -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary">Proyectos</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Sistema Médico</h5>
+              <p class="card-text">Gestión de pacientes, médicos y recetas electrónicas con Spring Boot y PostgreSQL.</p>
+              <a href="#" class="btn btn-primary btn-sm">Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Reserva de Restaurantes</h5>
+              <p class="card-text">Sistema en Node.js con Express y PostgreSQL que gestiona reservas y notificaciones.</p>
+              <a href="#" class="btn btn-primary btn-sm">Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Chatbot para Telegram</h5>
+              <p class="card-text">Bot integrado con API de OpenAI y base de datos interna para respuestas informativas.</p>
+              <a href="#" class="btn btn-primary btn-sm">Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Skills -->
+  <section id="skills" class="bg-light text-center">
+    <div class="container">
+      <h2 class="text-primary mb-4">Habilidades</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>PostgreSQL</span>
+        <span>Spring Boot</span>
+        <span>C#</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Contacto -->
+  <section id="contact">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">Contacto</h2>
+      <p><i class="bi bi-envelope-fill"></i> <a href="mailto:Juan Carlos@example.com">Juan Carlos@example.com</a></p>
+      <p><i class="bi bi-phone-fill"></i> +593 999 999 999</p>
+      <p>
+        <a href="https://github.com/JuanCarlos" target="_blank"><i class="bi bi-github fs-4 me-3"></i></a>
+        <a href="https://linkedin.com/in/JuanCarlos" target="_blank"><i class="bi bi-linkedin fs-4"></i></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="text-center">
+    <p>&copy; 2025 Andrés va | Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
